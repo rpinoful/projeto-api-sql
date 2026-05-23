@@ -1,0 +1,16 @@
+[project]
+name = "projeto-api-sql"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Tu Nombre",email = "rapsful@gmail.com"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "requests (>=2.34.2,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
